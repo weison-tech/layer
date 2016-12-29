@@ -1,0 +1,27 @@
+{
+    "name": "weison-tech/yii2-layer",
+    "description": "Alert widget based on layer.js extension {@link https://github.com/sentsin/layer)",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii2 layer", "yii2 layer alert", "yii2 alert"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaomalover",
+            "email": "xiaomalover@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "weison\\alert\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

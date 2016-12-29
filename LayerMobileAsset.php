@@ -1,6 +1,6 @@
 <?php
 
-namespace weison\assets;
+namespace weison\alert;
 
 use yii\web\AssetBundle;
 

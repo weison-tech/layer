@@ -21,3 +21,26 @@ or add
 ```
 
 to the require section of your composer.json.
+
+Usage
+-----
+Update your AppAsset
+
+````
+<?php
+
+namespace app\assets; 
+  
+use yii\web\AssetBundle;
+  
+class AppAsset extends AssetBundle
+{
+    ...
+    public $depends = [
+        ...
+        'weison\alert\LayerAsset', // Import layer alert's js and css
+        ...
+    ];
+    ...
+}
+````

@@ -10,7 +10,7 @@ class LayerAsset extends AssetBundle
 
     public $js = ['layer.js'];
 
-    public $css = ['skin/layer.css'];
+    public $css = ['skin/default/layer.css'];
 
     public $depends = [
         'yii\web\JqueryAsset',
